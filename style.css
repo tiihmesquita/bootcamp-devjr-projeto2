@@ -1,3 +1,35 @@
 body{
     background-color: #CCCCCC;
 }
+.container{
+    background-image: linear-gradient(to bottom, #2A0F2F, #631E6F) ;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    padding: 1rem;
+    width: 540px;
+    border-radius: 5px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title{
+    color: #FFD223;
+    
+    font-size: 25px;
+    font-weight:1px;
+    margin-bottom: 10px;
+    }
+.sub-dados{
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, #631E6F, #2A0F2F) ;
+    padding: 1rem;
+}
+.text{
+    color: #CCCCCC;
+    font-size: 13px;
+    margin-top: 13px;
+}
+.sub-title{
+    
+}
