@@ -8,6 +8,8 @@ button{
     margin: auto;
     padding: 0.6rem 3.3rem;
     border-radius: 3px;
+    width: 100%;
+    
 }
 button:hover,
 button:active
@@ -93,7 +95,8 @@ button:active
     background-image:linear-gradient(to bottom, #2638DB,#342988);
     padding: 0.5rem;
     border-radius: 0.4rem;
-    width: 8.75rem;
+    width: 140px;
+    
 }
 .text-enquete{
     color: white;
