@@ -1,13 +1,23 @@
 body{
     background-color: #CCCCCC;
 }
+.inputs{
+    width: 80%;
+    margin: 0 auto;
+    padding: 4px;
+    margin-bottom: 18px;
+    border-radius: 3px;
+    border: none;
+    
+    
+}
 .container{
     background-image: linear-gradient(to bottom, #2A0F2F, #631E6F) ;
     display: flex;
     text-align: center;
     margin: auto;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0.3rem  1.1rem;
     width: 540px;
     border-radius: 5px;
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -20,10 +30,12 @@ body{
     margin-bottom: 10px;
     }
 .sub-dados{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to bottom, #631E6F, #2A0F2F) ;
     padding: 1rem;
+    border-radius: 5px;
 }
 .text{
     color: #CCCCCC;
@@ -31,5 +43,16 @@ body{
     margin-top: 13px;
 }
 .sub-title{
+    color: #CCCCCC;
     
+    font-size: 21px;
+    font-weight:1px;
+    margin-bottom: 25px;
+}
+.footer{
+    color: #CCCCCC;
+    font-size: 10px;
+    margin-top: 4px;
+    
+
 }
