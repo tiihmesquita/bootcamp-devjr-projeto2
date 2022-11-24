@@ -6,7 +6,7 @@ button{
     color: #CCCCCC;
     border: none;
     margin: auto;
-    padding: 10px 20px;
+    padding: 0.6rem 3.3rem;
     border-radius: 3px;
 }
 button:hover,
@@ -22,9 +22,9 @@ button:active
 .inputs{
     width: 80%;
     margin: 0 auto;
-    padding: 4px;
-    margin-bottom: 18px;
-    border-radius: 3px;
+    padding: 0.2rem;
+    margin-bottom: 1.2rem;
+    border-radius: 0.18rem;
     border: none;
     
     
@@ -37,40 +37,40 @@ button:active
     flex-direction: column;
     padding: 0.3rem  1.1rem;
     width: 540px;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .title{
     color: #FFD223;
     
-    font-size: 25px;
-    font-weight:1px;
-    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font: weight 0.06rem;;
+    margin-bottom: 0.6rem;
     }
 .sub-dados{
-    margin-top: 30px;
+    margin-top: 1.8rem;
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to bottom, #631E6F, #2A0F2F) ;
-    padding: 12px;
-    border-radius: 5px;
+    padding: 0.75rem;
+    border-radius: 0.31rem;
 }
 .text{
     color: #CCCCCC;
-    font-size: 13px;
-    margin-top: 13px;
+    font-size: 0.8rem;
+    margin-top: 0.8rem;
 }
 .sub-title{
     color: #CCCCCC;
     
-    font-size: 21px;
-    font-weight:1px;
-    margin-bottom: 25px;
+    font-size: 1.3rem;
+    font-weight:0.06rem;
+    margin-bottom: 1.5rem;
 }
 .footer{
     color: #CCCCCC;
-    font-size: 10px;
-    margin-top: 4px;
+    font-size: 0.6rem;
+    margin-top: 0.25rem;
     
 
 }
@@ -78,10 +78,6 @@ button:active
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-
-    
-    
 }
 .bloco{
     background-image:linear-gradient(to bottom, #5085F4,#70C7FE);
@@ -89,20 +85,39 @@ button:active
     display: flex;
     flex-direction: column;
     margin: auto;
-    padding:5px 5px;
+    padding:0.3rem 0.3rem;
           
           
 }
 .border-bloco{
     background-image:linear-gradient(to bottom, #2638DB,#342988);
-    padding: 7px;
-    border-radius: 7px;
-    width: 140px;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    width: 8.75rem;
 }
 .text-enquete{
     color: white;
     
-    font-size: 21px;
-    font-weight:1px;
+    font-size: 1.31rem;
+    font: weight 0.06rem;;
     
+}
+@media screen and (max-width: 375px){
+    html{
+        font-size: 14px;
+    }
+    .enquete{
+        flex-direction: column;
+    }
+    .container{
+        width: 95%;
+    }
+    .bloco{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .border-bloco{
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
