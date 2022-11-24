@@ -1,6 +1,24 @@
 body{
     background-color: #CCCCCC;
 }
+button{
+    background-color: #1D0C20;
+    color: #CCCCCC;
+    border: none;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+button:hover,
+button:active
+{
+    transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-color: #631E6F;
+    transition: 500ms;
+}
 .inputs{
     width: 80%;
     margin: 0 auto;
