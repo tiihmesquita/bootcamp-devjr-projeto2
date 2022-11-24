@@ -34,7 +34,7 @@ body{
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to bottom, #631E6F, #2A0F2F) ;
-    padding: 1rem;
+    padding: 12px;
     border-radius: 5px;
 }
 .text{
@@ -55,4 +55,36 @@ body{
     margin-top: 4px;
     
 
+}
+.enquete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    
+    
+}
+.bloco{
+    background-image:linear-gradient(to bottom, #5085F4,#70C7FE);
+    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding:5px 5px;
+          
+          
+}
+.border-bloco{
+    background-image:linear-gradient(to bottom, #2638DB,#342988);
+    padding: 7px;
+    border-radius: 7px;
+    width: 140px;
+}
+.text-enquete{
+    color: white;
+    
+    font-size: 21px;
+    font-weight:1px;
+    
 }
